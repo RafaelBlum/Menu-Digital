@@ -1,0 +1,174 @@
+/* ========================================= */
+/*                 LOGIN                     */
+/* ========================================= */
+.auth__container, .optin__container{
+    margin-top: 4.90rem;
+    grid-template-columns: 250px;
+    justify-content: center;
+    row-gap: 5.5rem;
+}
+
+.login__box, .optin__box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 440px;
+    padding: 5px;
+}
+
+.login__header{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.login__header header{
+    color: #252525;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.optin_content header{
+    font-size: 20px;
+}
+
+.input__box .input__field {
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    padding: 0 25px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0, 0.05);
+    outline: none;
+    transition: .5s;
+}
+
+.input__box .input__field {
+    width: 100%;
+    height: 45px;
+    font-size: 17px;
+    padding: 0 25px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0, 0.05);
+    outline: none;
+    transition: .5s;
+}
+
+::placeholder{
+    font-weight: 400;
+    color: #252525;
+}
+.input__field:focus{
+    width: 105%;
+}
+
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.forgot-log{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 15px;
+}
+
+.forgot-link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+}
+#check{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+section a{
+    color: #555;
+}
+.input-submit{
+    position: relative;
+}
+
+.submit-btn{
+    width: 100%;
+    height: 60px;
+    background: rgb(139, 109, 237);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.input-submit label{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background: #4CAF50;
+    transform: scale(1.05,1);
+}
+.sign-up-link{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.sign-up-link a{
+    color: #252525;
+    font-weight: 600;
+}
+
+/* ========================================= */
+/*                FOOTER LOG                 */
+/* ========================================= */
+.container__log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-bottom{
+    padding: 5px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    opacity: .4;
+    font-weight: 200;
+}
+
+.container__log footer a {
+    display: block;
+    font-size: var(--font-normal);
+    color: var(--color-green);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+}

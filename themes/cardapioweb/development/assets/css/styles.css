@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+    --header-height: 3.5rem;
+
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --first-color: hsl(9, 100%, 92%);
+    --text-color: hsl(38, 8%, 8%);
+    --btn-color: hsl(264, 56%, 63%);
+    --first-color-alt: hsl(19, 64%, 52%);
+
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: "Poppins", sans-serif;
+    --title-font: "Lora", serif;
+    --subtitle-font-style: "Dancing Script", cursive;
+    --big-font-size: 2.375rem;
+    --normal-font-size: .938rem;
+    --smaller-font-size: .75rem;
+    --font-medium: 500;
+}
+
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container{
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.main{
+    overflow: hidden; /*Animation ScrollReveal*/
+}
+
+
+/*=============== HOME ===============*/
+.home{
+    background-color: var(--first-color);
+    padding: 9rem 0 2rem;
+    height: 100vh;
+    position: relative;
+}
+
+.home__container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.home__data{
+    text-align: left;
+}
+
+.home__subtitle{
+    font-family: var(--subtitle-font-style);
+    font-size: 1.5rem;
+    display: block;
+}
+
+.home__title{
+    margin: .75rem 0;
+    font-size: 3.2rem;
+}
+
+.home__description{
+    width: 540px;
+    font-size: 14px;
+}
+
+.home__button{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    column-gap: .5rem;
+    background-color: var(--btn-color);
+    color: #ffffff;
+    padding: .80rem 1.5rem;
+    border-radius: 3rem;
+    transition: background .3s;
+    font-weight: var(--font-medium);
+    margin-top: .900rem;
+    z-index: 99;
+}
+
+.home__button:hover{
+    background-color: var(--first-color-alt);
+    z-index: 99;
+}
+
+.home__button i{
+    font-size: 1.5rem;
+    transition: transform .3s;
+    z-index: 99;
+}
+
+
+.home__button:hover i{
+    transform: translateX(.25rem);
+    transition: transform .3s;
+    z-index: 99;
+}
+
+.home__button:hover p{
+    animation: shake-text 1.9s;
+}
+
+.home__img{
+    justify-self: center;
+    z-index: 98;
+}
+
+.home__img img{
+    animation: floaty 1.8s infinite alternate;
+    width: 340px;
+}
+
+.home__shadow{
+    width: 340px;
+    height: 24px;
+    background-color: hsla(38, 21%, 19%, .16);
+    margin: 0 auto;
+    border-radius: 50%;
+    filter: blur(7px);
+    animation: shadow 1.8s infinite alternate;
+}
+
+.home__leaf-1,
+.home__leaf-2{
+    position: absolute;
+    opacity: .1;
+    z-index: 97;
+}
+
+.home__leaf-1{
+    width: 600px;
+    top: 15rem;
+    left: -24rem;
+    transform: rotate(45deg);
+}
+
+.home__leaf-2{
+    width: 700px;
+    right: -50rem;
+    bottom: 10rem;
+    transform: rotate(-15deg);
+}
+
+/* ========================================= */
+/*                   FOOTER                  */
+/* ========================================= */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.container__footer p, .footer-bottom{
+    font-size: 12px;
+    opacity: .8;
+}
+
+.container__footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-bottom{
+    padding: 5px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    opacity: .8;
+    font-weight: 200;
+}
+
+.footer__social{
+    display: flex;
+    column-gap: 1.25rem;
+}
+
+.footer__social_link{
+    color: var(--btn-color);
+    font-size: 1.5rem;
+    transition: color .3s, transform .3s;
+}
+
+.footer__social_link:hover{
+    color: var(--first-color-alt);
+    transform: translateY(-2px);
+    animation: shake 1.8s infinite alternate;
+}
+
+
+/* Animate ghost */
+@keyframes floaty {
+    0%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(15px);
+    }
+}
+
+@keyframes shadow {
+    0%{
+        transform: scale(1, 1);
+    }
+
+    100%{
+        transform: scale(.85, .385);
+    }
+}
+
+@keyframes shake {
+    10% {
+        transform: rotate(15deg);
+    }
+    20% {
+        transform: rotate(-15deg);
+    }
+    30% {
+        transform: rotate(15deg);
+    }
+    40% {
+        transform: rotate(-15deg);
+    }
+}
+
+@keyframes shake-text {
+    10% {
+        transform: rotate(5deg);
+    }
+    20% {
+        transform: rotate(-5deg);
+    }
+    30% {
+        transform: rotate(5deg);
+    }
+    40% {
+        transform: rotate(-5deg);
+    }
+}

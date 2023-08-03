@@ -1,0 +1,33 @@
+:root {
+    /*========== Colors MSG ==========*/
+    --color-green: hsl(136, 63%, 55%);
+    --color-yellow: hsl(53, 80%, 46%);
+    --color-red: hsla(17, 100%, 51%, 0.89);
+}
+
+.message {
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #cc1541;
+    font-weight: 500;
+}
+
+.success {
+    color: var(--color-green);
+    border-color: var(--color-green);
+}
+
+.warning {
+    color: var(--color-yellow);
+    border-color: var(--color-yellow);
+}
+
+.error {
+    color: hsla(17, 100%, 51%, 0.89);
+    border-color: hsla(17, 100%, 51%, 0.89);
+}
