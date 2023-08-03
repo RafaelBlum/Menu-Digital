@@ -95,7 +95,7 @@ define("MAIL", [
     "host" => "smtp.hostinger.com",
     "port" => 465,
     "user" => CONF_SITE_MAIL,
-    "passwd" => "Cardapio-2023",
+    "passwd" => "************",
     "from_name" => CONF_SITE_NAME,
     "from_email" => "meucardapio@cardapio-digital.online",
     "sender" => ["name" => CONF_SITE_NAME, "address" => CONF_SITE_MAIL],
