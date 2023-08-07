@@ -9,7 +9,7 @@ class Connect
     /**    ---------    DATA LOCALHOST   ----------*/
     private const HOST = "localhost";
     private const USER = "root";
-    private const DBNAME = "cardapio_digital";
+    private const DBNAME = "u994951933_menudig";
     private const PASSWORD = "";
 
     private const OPTIONS = [

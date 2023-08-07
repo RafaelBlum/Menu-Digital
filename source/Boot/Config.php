@@ -11,8 +11,8 @@ define("CONF_SITE_LANG", "pt_BR");
 /**
  * CONFIG DESCRIPTION
  */
-define("CONF_SITE_NAME", "Cardápio Digital");
-define("CONF_SITE_MAIL", "meucardapio@cardapio-digital.online");
+define("CONF_SITE_NAME", "Menu Digital");
+define("CONF_SITE_MAIL", "menu-digital@menu-digital.online");
 define("CONF_SITE_TITLE", "Criando sabores inesquecíveis para tornar seus dias mais gostosos!");
 define("CONF_SITE_DESC", "Somos uma das mais tradicionais confeitarias de Porto Alegre, criando sabores inesquecíveis para tornar seus dias mais gostosos! Doces, salgados, bolos e tortas!");
 define("CONF_DEV_NAME", "Rafael Blum");
@@ -28,16 +28,16 @@ define("CONF_ADDR_CITY", "Porto Alegre");
 define("CONF_ADDR_STATE", "RS");
 define("CONF_ADDR_ZIPCODE", "90660-000");
 define("CONF_ADDR_FONE", "(51)55555-5555");
-define("CONF_ADDR_EMAIL", "meucardapio@cardapio-digital.online");
+define("CONF_ADDR_EMAIL", "menu-digital@menu-digital.online");
 
 /**
  * URLs
  */
-define("CONF_URL_BASE", "https://www.cardapio-digital.online");
+define("CONF_URL_BASE", "https://menu-digital.online");
 define("CONF_URL_ADMIN", CONF_URL_BASE . "/admin");
 define("CONF_URL_TEST", "http://localhost/cardapio");
 define("CONF_URL_ERROR", CONF_URL_BASE . "/errors");
-define("CONF_SITE_DOMAIN", "cardapio-digital.online");
+define("CONF_SITE_DOMAIN", "menu-digital.online");
 
 
 
@@ -68,7 +68,7 @@ define("DATA_LAYER_CONFIG", [
     "driver" => "mysql",
     "host" => "localhost",
     "port" => "3306",
-    "dbname" => "php_cardapio-digital",
+    "dbname" => "u994951933_menudig",
     "username" => "root",
     "passwd" => "",
     "options" => [
@@ -85,7 +85,7 @@ define("DATA_LAYER_CONFIG", [
 define("CONF_DATABASE", "mysql");
 define("CONF_HOST", "localhost");
 define("CONF_USER", "root");
-define("CONF_DBNAME", "cardapior-digital");
+define("CONF_DBNAME", "u994951933_menudig");
 define("CONF_PASSWORD", "");
 
 /**
@@ -95,9 +95,9 @@ define("MAIL", [
     "host" => "smtp.hostinger.com",
     "port" => 465,
     "user" => CONF_SITE_MAIL,
-    "passwd" => "Cardapio-2023",
+    "passwd" => "---",
     "from_name" => CONF_SITE_NAME,
-    "from_email" => "meucardapio@cardapio-digital.online",
+    "from_email" => "menu-digital@menu-digital.online",
     "sender" => ["name" => CONF_SITE_NAME, "address" => CONF_SITE_MAIL],
     "lang" => "br",
     "html" => true,
@@ -108,7 +108,7 @@ define("MAIL", [
 ]);
 
 /**
- * CONFIG VIEWS - TESTE
+ * CONFIG VIEWS
  */
 define("CONF_VIEW_PATH_MAIL", __DIR__ . "/../../shared/views/mail/");
 define("CONF_VIEW_THEME", "cardapioweb");

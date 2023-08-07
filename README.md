@@ -35,6 +35,7 @@ O contato do cliente será realizado via `WhatsApp`, para tirár dúvidas e fech
 ## Acesso
 
 **🔎 Acesse o site agora [CARDÁPIO DIGITAL](https://www.cardapio-digital.online)**
+E-MAIL: menu-digital@menu-digital.online
 
 <br>
 
