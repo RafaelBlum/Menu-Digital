@@ -95,7 +95,7 @@ define("MAIL", [
     "host" => "smtp.hostinger.com",
     "port" => 465,
     "user" => CONF_SITE_MAIL,
-    "passwd" => "************",
+    "passwd" => "Cardapio-2023",
     "from_name" => CONF_SITE_NAME,
     "from_email" => "meucardapio@cardapio-digital.online",
     "sender" => ["name" => CONF_SITE_NAME, "address" => CONF_SITE_MAIL],
@@ -108,7 +108,7 @@ define("MAIL", [
 ]);
 
 /**
- * CONFIG VIEWS
+ * CONFIG VIEWS - TESTE
  */
 define("CONF_VIEW_PATH_MAIL", __DIR__ . "/../../shared/views/mail/");
 define("CONF_VIEW_THEME", "cardapioweb");
@@ -151,7 +151,7 @@ define("CONF_URL_TWITTER", "https://twitter.com/universocode");
 define("CONF_URL_INSTAGRAM", "https://www.instagram.com/universo_code");
 define("CONF_URL_YOUTUBE", "https://www.youtube.com/channel/UCMvtn8HZ12Ud-sdkY5KzTog");
 define("CONF_URL_INSTAGRAM_PESSOAL", "https://www.instagram.com/rafablum_");
-define("CONF_URL_LINKEDIN", "https://www.linkedin.com/in/rafael-blum-237133114");
+define("CONF_URL_LINKEDIN", "https://www.linkedin.com/in/rafael-blum-378656285");
 
 
 

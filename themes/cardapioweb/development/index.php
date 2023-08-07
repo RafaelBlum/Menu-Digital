@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--=============== FAVICON ===============-->
+    <link rel="icon" href="<?= theme("development/assets/image/logo.png") ?>" type="image/x-icon">
+
     <?php
         $set = (new \Source\Models\Setting())->find()->fetch();
     ?>
@@ -94,6 +97,10 @@
                         <a href="<?= CONF_URL_GITHUB; ?>" target="_blank" class="footer__social_link">
                             <i class="ri-github-fill"></i>
                         </a>
+                        <a href="<?= CONF_URL_LINKEDIN; ?>" target="_blank" class="footer__social_link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+
                     </ul>
                 </footer>
             </div>

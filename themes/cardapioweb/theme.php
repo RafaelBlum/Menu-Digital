@@ -12,7 +12,7 @@
     ?>
 
     <!--=============== FAVICON ===============-->
-    <link rel="shortcut icon" href="<?= theme("assets/images/logo/logo-cd-2.png") ?>" type="image/x-icon">
+    <link rel="icon" href="<?= theme("assets/images/logo/logo-favico.ico") ?>" type="image/x-icon">
 
     <!--=============== BOXICONS ===============-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -39,7 +39,7 @@
 <header class="header" id="header">
     <nav class="nav container">
         <a href="<?= url("/home"); ?>" class="nav__logo">
-            <img src="<?= theme("assets/images/logo/logo-cd-2.png") ?>" alt="logo image">
+            <img src="<?= theme("assets/images/logo/logo-cd.png") ?>" alt="logo image">
             <?= $set->project_name; ?>
         </a>
 

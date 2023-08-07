@@ -377,18 +377,19 @@ function user(): ?User
  */
 function theme(string $path = null, string $theme = CONF_VIEW_THEME): string
 {
-    if(strpos($_SERVER['HTTP_HOST'], "localhost") == "localhost" ? false:true){
+//    if(strpos($_SERVER['HTTP_HOST'], "localhost") == "localhost" ? false:true){
         if($path){
             return CONF_URL_TEST . "/themes/{$theme}/" . ($path[0] == "/" ? mb_substr($path, 1) : $path);
+            //http://localhost/cardapio/cardapioadm/assets/images/avatar.jpg
         }
         return CONF_URL_TEST . "/themes/{$theme}/";
-    }
-
-    if($path){
-        return CONF_URL_BASE . "/themes/{$theme}/" . ($path[0] == "/" ? mb_substr($path, 1) : $path);
-    }
-
-    return CONF_URL_BASE . "/themes/{$theme}/";
+//    }
+//
+//    if($path){
+//        return CONF_URL_BASE . "/themes/{$theme}/" . ($path[0] == "/" ? mb_substr($path, 1) : $path);
+//    }
+//
+//    return CONF_URL_BASE . "/themes/{$theme}/";
 }
 
 

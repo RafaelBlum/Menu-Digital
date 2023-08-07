@@ -602,6 +602,58 @@ body.dark-theme{
 }
 
 
+
+
+
+/* ========================================= */
+/*             MOVIE DETAILS                 */
+/* ========================================= */
+
+.detail__movie{
+    margin-top: 4rem;
+}
+
+.detail__movie__header {
+    text-align: center;
+    color: #555555;
+}
+
+.detail__movie header h4 {
+    font-size: 1.5em; /* Defina o tamanho da fonte desejado, por exemplo, 1.5em */
+    font-weight: bold; /* Defina o peso da fonte, por exemplo, bold (negrito) */
+    font-family: 'Arial', sans-serif; /* Defina o estilo da fonte desejado */
+
+}
+
+.detail__movie header p {
+    margin-top: 10px;
+    font-size: 0.875em;
+}
+
+.detail__movie__iframe{
+    margin: 2rem auto 10px auto; /* Use "auto" para centralizar verticalmente */
+    position: relative;
+    overflow: hidden;
+    width: 80%; /* Defina a largura desejada para o vídeo */
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(13, 19, 26, 0.32);
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.detail__responsive__iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%; /* Defina a altura desejada para o vídeo (100% para preencher a div) */
+}
+
+
+
+
 /* ========================================= */
 /*                PRODUCTS                   */
 /* ========================================= */
@@ -848,16 +900,19 @@ body.dark-theme{
 /*             PRODUCT DETAIL                */
 /* ========================================= */
 
+
 .product__price {
     display: flex;
-    font-size: 25px;
-    list-style: none;
-    padding-top: 5px;
-    margin: 0;
     justify-content: center;
     align-items: center;
-    padding-block: 10px 10px;
-    font-weight: 700;
+    font-family: var(--title-font);
+    font-size: 1.5em; /* Defina o tamanho da fonte desejado, por exemplo, 1.5em */
+    font-weight: bold; /* Defina o peso da fonte, por exemplo, bold (negrito) */
+    color: #9c4aff; /* Cor do texto, você pode alterar para a cor desejada */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-bottom: 10px; /* Margem inferior para espaçamento entre elementos */
 }
 
 /* ========================================= */

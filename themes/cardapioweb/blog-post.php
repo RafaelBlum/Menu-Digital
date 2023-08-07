@@ -26,6 +26,27 @@
             <?= html_entity_decode($post->content); ?>
         </div>
 
+
+        <?php if($post->video): ?>
+
+            <div class="detail__movie content">
+                <section>
+                    <header class="detail__movie__header">
+                        <h4>Assista</h4>
+                        <p>Veja alguns detalhes no vídeo ralacionado.</p>
+                    </header>
+
+                    <div class="detail__movie__iframe">
+                        <iframe class="detail__responsive__iframe"
+                                src="https://www.youtube.com/embed/<?= $post->video; ?>">
+                        </iframe>
+                    </div>
+                </section>
+            </div>
+
+
+        <?php endif; ?>
+
         <aside class="social_share">
             <hr/>
         </aside>

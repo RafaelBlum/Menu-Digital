@@ -9,12 +9,12 @@
 		<img width="400" src="assets/img/logo/logo-cd-md.png" alt="Cardápio Digital">
 	</a>
 </p>
-<p align="center">Seu cardápio digital fácil e gerenciável.</p>
+<p align="center">Sistema gerenciável Menu Digital</p>
 
 <p align="center">
 	<img src="https://img.shields.io/badge/version project-2.0-brightgreen" alt="version project">
-    <img src="https://img.shields.io/badge/Php-7.4-informational" alt="stack project">
-    <img src="https://img.shields.io/static/v1?label=Composer&message=2.4.4&color=brightgreen?style=for-the-badge" alt="stack project">
+    <img src="https://img.shields.io/badge/Php-8.2-informational" alt="stack project">
+    <img src="https://img.shields.io/static/v1?label=Composer&message=2.5.1&color=brightgreen?style=for-the-badge" alt="stack project">
 	<a href="https://opensource.org/licenses/GPL-3.0">
 		<img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="GPLv3 License">
 	</a>
