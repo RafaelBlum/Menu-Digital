@@ -1,15 +1,12 @@
 <p align="center">
-	<a href="#"  target="_blank" title="Visit cardápio digital home page">
-		<img src="assets/img/logo/logo-cd.png" alt="Cardápio Digital" width="100">
+	<a href="#"  target="_blank" title="Visit Menu Digital home page">
+		<img src="./themes/cardapioweb/assets/images/logo/logo-cd.png" alt="Menu Digital" width="100">
 	</a>
 </p>
+
 <br>
-<p align="center">
-	<a href="https://scrollrevealjs.org" title="Visit ScrollReveal home page">
-		<img width="400" src="assets/img/logo/logo-cd-md.png" alt="Cardápio Digital">
-	</a>
-</p>
-<p align="center">Sistema gerenciável [`menu digital`](https://www.cardapio-digital.online)</p>
+
+<p align="center">Menu Digital</p> [`Acesse`](https://www.cardapio-digital.online)
 
 <p align="center">
 	<img src="https://img.shields.io/badge/version project-2.0-brightgreen" alt="version project">
