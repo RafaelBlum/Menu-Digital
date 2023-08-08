@@ -6,7 +6,7 @@
 
 <br>
 
-<p align="center">Menu Digital</p> [`Acesse`](https://www.cardapio-digital.online)
+<p align="center">Menu Digital - <a href="https://www.cardapio-digital.online">https://www.cardapio-digital.online</a> ()</p>
 
 <p align="center">
 	<img src="https://img.shields.io/badge/version project-2.0-brightgreen" alt="version project">
