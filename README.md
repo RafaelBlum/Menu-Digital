@@ -42,56 +42,22 @@ usuários, produtos, blog, todo FAQ e inscrições via e-mail.
 
 
 
-# Desenvolvimento
+## Desenvolvimento
+
+Descrição.......
+
+### Bibliotecas
+- <a href="#" target="_blank">Google Fonts</a>
+- <a href="#" target="_blank">ScrollReveal</a>
+- <a href="#" target="_blank">Remixicon</a> 
 
 
-# Arquitetura
+## Arquitetura
+Descrição.......
 
 
-
-## Acesso
-
-**🔎 Acesse o site agora [CARDÁPIO DIGITAL](https://www.cardapio-digital.online)**
-E-MAIL: menu-digital@menu-digital.online
-
-<br>
-
-#### Bibliotecas
-> <a href="#" target="_blank">Google Fonts</a>
-> <a href="#" target="_blank">ScrollReveal</a>
-> <a href="#" target="_blank">Remixicon</a> 
-
-<br>
-
-## Diagrama de classes
-
-Installation provides us with the constructor function [`ScrollReveal()`](https://scrollrevealjs.org/api/constructor.html).
-
-<div align="center">
-    <h4>Diagrama de classes - UML</h4>
-    <img src="/diagram-menu.jpg" width="580" style="border-radius: 10px;">
-</div>
-
-<br>
-
----
-
-### Contato [rafaelblum_digital@hotmail.com](rafaelblum_digital@hotmail.com)
-
----
-
-[![Youtube Badge](https://img.shields.io/badge/-Youtube-FF0000?style=flat-square&labelColor=FF0000&logo=youtube&logoColor=white&link=https://www.youtube.com/channel/UCMvtn8HZ12Ud-sdkY5KzTog)](https://www.youtube.com/channel/UCMvtn8HZ12Ud-sdkY5KzTog)
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rafael-blum-237133114s/)](https://www.linkedin.com/in/rafael-blum-237133114s/)
-[![Instagram Badge](https://img.shields.io/badge/-Instagram-violet?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/rafablum_/)](https://www.instagram.com/rafablum_/)
-
-
-
-
-<br>
-
-
- #### **Requisitos Funcionais (RF)**
- ##### Os requisitos funcionais referem-se sobre o que o sistema deve fazer, ou seja, suas funções e informações.
+## **Requisitos Funcionais (RF)**
+##### Os requisitos funcionais referem-se sobre o que o sistema deve fazer, ou seja, suas funções e informações.
 - [RF001] O Sistema deve autenticar o usuário administrador.
 - [RF002] O Sistema deve ter uma dashboard administrativa.
 - [RF003] O Sistema deve ter estatiscas de navegação.
@@ -102,37 +68,38 @@ Installation provides us with the constructor function [`ScrollReveal()`](https:
 - [RF008] O Sistema deve ter administração do perfil das paginas.
 - [RF009] O Sistema deve gerar relatórios PDF.
 
- #### **Requisitos Não-Funcionais (RNF)**
+## **Requisitos Não-Funcionais (RNF)**
 ###### requisitos não funcionais definem propriedades e restrições do sistema como tempo, espaço, linguagens de programação, versões do compilador, SGBD, Sistema Operacional, método de desenvolvimento, etc.
 - [RNF001] O sistema deve imprimir o relatório em até 5 segundos.
 - [RNF002] O sistema deve ser implementado em Php.
 - [RNF003] O sistema deve ser implementado em Php.
 - [RNF004] O sistema deve ser implementado utilizando dependências para melhor agilidade de desenvolvimento.
 
-<br>
+## Diagrama de classes
 
-<a href="https://scrollrevealjs.org/pricing/" title="Visit ScrollReveal pricing page">
-	<img align="right" height="200" src="assets/img/logo/logo-cd-vertical-sm.png" alt="Logo">
-</a>
+Installation provides us with the constructor function [`ScrollReveal()`](https://scrollrevealjs.org/api/constructor.html).
+
+<div align="center">
+    <h4>Diagrama de classes - UML</h4>
+    <img src="/diagram-menu.jpg" width="580" style="border-radius: 10px;">
+</div>
 
 > O diagramas de arquitetura de software oferecem a toda a equipe de desenvolvimento um panorama visual, facilitando a comunicação de ideias e conceitos-chave em termos que todos entendem.
 
-<br>
-
-# License
-
-**For commercial sites, themes, projects, and applications, keep your source code private/proprietary by purchasing a [Commercial License](https://scrollrevealjs.org/pricing/).**
-
-Licensed under the GNU General Public License 3.0 for compatible open source projects and non-commercial use.
-
-<br>
-
-Copyright 2022 Fisssion LLC
 
 
+## Contatos
 
+**🔎 Acesse o site agora [CARDÁPIO DIGITAL](https://www.cardapio-digital.online)**
+Contatos 👇🏼 [rafaelblum_digital@hotmail.com]
+Contatos 👇🏼 [menu-digital@menu-digital.online]
 
+[![Youtube Badge](https://img.shields.io/badge/-Youtube-FF0000?style=flat-square&labelColor=FF0000&logo=youtube&logoColor=white&link=https://www.youtube.com/channel/UCMvtn8HZ12Ud-sdkY5KzTog)](https://www.youtube.com/channel/UCMvtn8HZ12Ud-sdkY5KzTog)
+[![Instagram Badge](https://img.shields.io/badge/-rafablum_-violet?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/rafablum_/)](https://www.instagram.com/rafablum_/)
+[![Twitter: universoCode](https://img.shields.io/twitter/follow/universoCode?style=social)](https://twitter.com/universoCode)
+[![Linkedin: RafaelBlum](https://img.shields.io/badge/-RafaelBlum-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rafael-blum-378656285/)](https://www.linkedin.com/in/rafael-blum-378656285/)
+[![GitHub RafaelBlum](https://img.shields.io/github/followers/RafaelBlum?label=follow&style=social)](https://github.com/RafaelBlum)
 
+Copyright 2023 Menu Digital - Rafael Blum
 
-
-
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>Adoro me conectar com pessoas diferentes,</b> então se você quiser dizer <b>oi, ficarei feliz em conhecê-lo mais!</b> :)</em>
