@@ -77,22 +77,23 @@ Descrição.......
 
 ## Diagrama de classes
 
-Installation provides us with the constructor function [`ScrollReveal()`](https://scrollrevealjs.org/api/constructor.html).
+O diagrama de classes do projeto, foi realizado no software  [`StarUML`](https://staruml.io/).
 
 <div align="center">
     <h4>Diagrama de classes - UML</h4>
     <img src="/diagram-menu.jpg" width="580" style="border-radius: 10px;">
 </div>
 
-> O diagramas de arquitetura de software oferecem a toda a equipe de desenvolvimento um panorama visual, facilitando a comunicação de ideias e conceitos-chave em termos que todos entendem.
+> O diagrama de classes é a representação estática utilizada para descrever a estrutura do sistema, apresentando as classes, atributos, operações e as relações entre os objetos.
 
 
 
 ## Contatos
 
+
 **🔎 Acesse o site agora [CARDÁPIO DIGITAL](https://www.cardapio-digital.online)**
-Contatos 👇🏼 [rafaelblum_digital@hotmail.com]
-Contatos 👇🏼 [menu-digital@menu-digital.online]
+- Contatos 👇🏼 [rafaelblum_digital@hotmail.com]
+- Contatos 👇🏼 [menu-digital@menu-digital.online]
 
 [![Youtube Badge](https://img.shields.io/badge/-Youtube-FF0000?style=flat-square&labelColor=FF0000&logo=youtube&logoColor=white&link=https://www.youtube.com/channel/UCMvtn8HZ12Ud-sdkY5KzTog)](https://www.youtube.com/channel/UCMvtn8HZ12Ud-sdkY5KzTog)
 [![Instagram Badge](https://img.shields.io/badge/-rafablum_-violet?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/rafablum_/)](https://www.instagram.com/rafablum_/)
@@ -100,6 +101,5 @@ Contatos 👇🏼 [menu-digital@menu-digital.online]
 [![Linkedin: RafaelBlum](https://img.shields.io/badge/-RafaelBlum-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rafael-blum-378656285/)](https://www.linkedin.com/in/rafael-blum-378656285/)
 [![GitHub RafaelBlum](https://img.shields.io/github/followers/RafaelBlum?label=follow&style=social)](https://github.com/RafaelBlum)
 
-Copyright 2023 Menu Digital - Rafael Blum
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>Adoro me conectar com pessoas diferentes,</b> então se você quiser dizer <b>oi, ficarei feliz em conhecê-lo mais!</b> :)</em>
