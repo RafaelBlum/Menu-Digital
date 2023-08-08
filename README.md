@@ -9,7 +9,7 @@
 		<img width="400" src="assets/img/logo/logo-cd-md.png" alt="Cardápio Digital">
 	</a>
 </p>
-<p align="center">Sistema gerenciável Menu Digital</p>
+<p align="center">Sistema gerenciável [`menu digital`](https://www.cardapio-digital.online)</p>
 
 <p align="center">
 	<img src="https://img.shields.io/badge/version project-2.0-brightgreen" alt="version project">
@@ -24,13 +24,30 @@
 
 # Sobre
 
-Projeto [`menu digital`](https://www.cardapio-digital.online) de `PHP` puro para demonstração e administração de 
-diversos `produtos` e página de `blog`. O projeto será um cardápio digital para os clientes com informativo dos itens cadastrados
-com imagem, descrição, valor, categoria. O cliente pode acessar também o blog com diversas informações da empresa, produtos, etc. 
-O contato do cliente será realizado via `WhatsApp`, para tirár dúvidas e fechar negocio com empresa.
+O objetivo deste projeto é a criação de um `site responsivo e gerenciável`, onde possamos ter um `menu demonstrativo` de 
+produtos ou serviços, servido como um catálogo. O site também terá um blog para postagens para seus clientes, como 
+informções ou detalhes sobre seus produtos e serviços. E sobre as formas de contatos que os usuário poderão realizar, 
+seram via WhatsApp e cadastro por e-mail para recebimento de newslatters.
+
+O site terá um CMS, Sistema de Gestão de Conteúdos, de forma bem direta, o CMS permitirá que você crie, organize, publique, 
+configure e apague conteúdos do site. O grande diferencial do CMS, como o próprio nome diz, é a possibilidade de gerenciar 
+conteúdo dinâmico de forma simples, ou seja, manter um blog, loja virtual ou outro tipo de site que precisa ser atualizado 
+de forma constante. Então o CMS é a solução ideal para todo mundo que precisa de um site que não seja 100% estático e momentâneo.
+
+O gerenciamento do sistema terá uma dashboard responsiva com painel rápido para verificação dos conteúdos e controle de 
+trávego, com a listagem de toda navegação dos usuário logados e anônimos.
+
+A dashboard terá o gerenciamento das configurações do site, como nome, sobre e outros detalhes, páginas para gerenciamento de 
+usuários, produtos, blog, todo FAQ e inscrições via e-mail.
 
 
-<br>
+
+# Desenvolvimento
+
+
+# Arquitetura
+
+
 
 ## Acesso
 
@@ -52,7 +69,7 @@ Installation provides us with the constructor function [`ScrollReveal()`](https:
 
 <div align="center">
     <h4>Diagrama de classes - UML</h4>
-    <img src="diagrama.jpg" width="580" style="border-radius: 10px;">
+    <img src="/diagram-menu.jpg" width="580" style="border-radius: 10px;">
 </div>
 
 <br>
