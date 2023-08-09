@@ -1,6 +1,6 @@
 <p align="center">
 	<a href="#"  target="_blank" title="Visit Menu Digital home page">
-		<img src="./themes/cardapioweb/assets/images/site/home-dispositivos.png" alt="Menu Digital" width="500">
+		<img src="./themes/cardapioweb/assets/images/site/menu_banner.jpg" alt="Menu Digital" width="500" style="border-radius: 5px; filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.2));">
 	</a>
 </p>
 
@@ -95,7 +95,7 @@ E neste projeto foi realizado uma pesquisa para se colocar o melhor layout, e pe
 
 <p align="center">
 	<a href="#"  target="_blank" title="Visit Menu Digital home page">
-		<img src="./themes/cardapioweb/assets/images/site/home-dispositivos.png" alt="Menu Digital" width="500">
+		<img src="./themes/cardapioweb/assets/images/site/web_tablet.png" alt="Menu Digital" width="500" style="filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.2));">
 	</a>
 </p>
 
