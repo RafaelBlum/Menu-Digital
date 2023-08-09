@@ -121,7 +121,7 @@
         <div class="footer__container container grid">
             <div>
                 <a href="#" class="footer__logo">
-                    <img src="<?= theme("assets/images/logo/logo-cd-2.png") ?>" alt="logo image">
+                    <img src="<?= theme("assets/images/logo/logo-lg.png") ?>" alt="logo image">
                     <?= $set->project_name; ?>
                 </a>
 
@@ -236,10 +236,10 @@
 
         <div class="footer__info container">
             <div class="footer__card">
-                <img src="<?= theme("assets/images/sushi-imgs/footer-card-1.png") ?>" alt="footer img">
-                <img src="<?= theme("assets/images/sushi-imgs/footer-card-2.png") ?>" alt="footer img">
-                <img src="<?= theme("assets/images/sushi-imgs/footer-card-3.png") ?>" alt="footer img">
-                <img src="<?= theme("assets/images/sushi-imgs/footer-card-4.png") ?>" alt="footer img">
+                <img src="<?= theme("assets/images/site/card.png") ?>" alt="footer card">
+                <img src="<?= theme("assets/images/site/card.png") ?>" alt="footer card">
+                <img src="<?= theme("assets/images/site/card.png") ?>" alt="footer card">
+                <img src="<?= theme("assets/images/site/card.png") ?>" alt="footer card">
             </div>
 
             <span class="footer__copy">

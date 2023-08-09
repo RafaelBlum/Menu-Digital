@@ -55,7 +55,7 @@
             <h2 class="section__subtitle about__title">
                 <div>
                     Perguntas frequentes
-                    <img src="<?= theme("assets/images/logo/logo-cd-2.png") ?>" alt="about">
+                    <img src="<?= theme("assets/images/logo/logo-lg.png") ?>" alt="about">
                 </div>
             </h2>
 

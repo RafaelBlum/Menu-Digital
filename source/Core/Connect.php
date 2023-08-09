@@ -8,7 +8,7 @@ class Connect
 {
     /**    ---------    DATA LOCALHOST   ----------*/
     private const HOST = "localhost";
-    private const USER = "u994951933_menudig";
+    private const USER = "root";
     private const DBNAME = "u994951933_menudig";
     private const PASSWORD = "";
 
