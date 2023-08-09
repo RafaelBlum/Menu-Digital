@@ -39,7 +39,7 @@
 <header class="header" id="header">
     <nav class="nav container">
         <a href="<?= url("/home"); ?>" class="nav__logo">
-            <img src="<?= theme("assets/images/logo/logo-cd.png") ?>" alt="logo image">
+            <img src="<?= theme("assets/images/logo/logo-md.png") ?>" alt="logo image">
             <?= $set->project_name; ?>
         </a>
 
@@ -84,8 +84,8 @@
             </div>
 
             <!--==================== Image background header ==================== -->
-            <img src="<?= theme("assets/images/logo/logo-cd.png") ?>" alt="nav image" class="nav__img-1">
-            <img src="<?= theme("assets/images/logo/logo-cd.png") ?>" alt="nav image" class="nav__img-2">
+            <img src="<?= theme("assets/images/illustrations/leaf-yellow.png") ?>" alt="nav image" class="nav__img__1">
+            <img src="<?= theme("assets/images/illustrations/leaf-cyan-2.png") ?>" alt="nav image" class="nav__img__2">
         </div>
 
         <div class="nav__buttons">

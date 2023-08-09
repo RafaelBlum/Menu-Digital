@@ -28,11 +28,15 @@
     }
 
     .home__leaf-1{
-        top: 5rem;
+        top: 11rem;
+        width: 220px;
+        transform: rotate(100deg);
     }
 
     .home__leaf-2{
-        bottom: 0;
+        width: 220px;
+        right: -7rem;
+        bottom: 9rem;
     }
 
     .about__leaf{
@@ -106,6 +110,19 @@
     .notfound .notfound__social .footer__social{
         display: block;
     }
+
+    .home__leaf-1{
+        top: 11rem;
+        border: red solid 1px;
+        width: 220px;
+        transform: rotate(100deg);
+    }
+
+    .home__leaf-2{
+        width: 220px;
+        right: -7rem;
+        bottom: 9rem;
+    }
 }
 
 
@@ -131,6 +148,18 @@
     .footer__social{
         display: block;
     }
+
+    .home__leaf-1{
+        top: 11rem;
+        width: 220px;
+        transform: rotate(100deg);
+    }
+
+    .home__leaf-2{
+        width: 220px;
+        right: -7rem;
+        bottom: 9rem;
+    }
 }
 
 
@@ -144,10 +173,10 @@
 
     .nav__toggle,
     .nav__close,
-    .nav__img-1,
-    .nav__img-2{
-        display: none;
-    }
+    .nav__img__1,
+     .nav__img__2{
+         display: none;
+     }
 
     .nav__list{
         flex-direction: row;

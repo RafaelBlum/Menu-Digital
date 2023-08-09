@@ -297,23 +297,23 @@ body.dark-theme{
     cursor: pointer;
 }
 
-.nav__img-1, .nav__img-2{
+.nav__img__1, .nav__img__2{
     position: absolute;
     opacity: .2;
 }
 
-.nav__img-1{
-    width: 100px;
-    top: .75rem;
+.nav__img__1{
+    width: 150px;
+    top: 3rem;
     left: -2rem;
-    transform: rotate(165deg);
+    transform: rotate(280deg);
 }
 
-.nav__img-2{
-    width: 50px;
+.nav__img__2{
+    width: 150px;
     right: -1rem;
-    bottom: 5px;
-    transform: rotate(-30deg);
+    bottom: 2px;
+    transform: rotate(-45deg);
 }
 
 /* Show menu */
