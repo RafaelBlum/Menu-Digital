@@ -31,9 +31,8 @@ Aqui vai o checklist das etapas de planejamento para o desenvolvimento do sistem
 ##### Detalhes técnicos
 - Definir arquitetura do projeto
 - Definir tecnologias (serviços externos, libs, frameworks, hospedagem etc.)
-- Configuração inicial do projeto e workflow
 
-<hr/>
+<hr style="border: #0d0c22 2px solid; margin-top: 5px; margin-bottom: 5px;"/>
 
 ## Ideação
 
@@ -88,10 +87,40 @@ usuários, produtos, blog, todo FAQ e inscrições via e-mail.
 - [RNF006] O site deve ter segurança contra ataques.
 
 
-#### Definir tecnologias (serviços externos, libs, frameworks, hospedagem etc.)
+## Prototipagem
 
-- <a href="#" target="_blank">Php `8.2`</a>
+A etapa de front end no projeto é uma etapa que estou me desenvolvendo e me atualizando cada vez mais, buscando as melhores praticas de estilização,
+codifificação e sempre buscando desafios, com tecnologias novas. 
+E neste projeto foi realizado uma pesquisa para se colocar o melhor layout, e personalização para uma experiencia de interface moderna, prática para usuários.
+
+<p align="center">
+	<a href="#"  target="_blank" title="Visit Menu Digital home page">
+		<img src="./themes/cardapioweb/assets/images/site/home-dispositivos.png" alt="Menu Digital" style="width: 100%;">
+	</a>
+</p>
+
+- Diagrama Entidade-Relacionamento (DER)
+
+> O diagrama de classes é a representação estática utilizada para descrever a estrutura do sistema, apresentando as classes, atributos, operações e as relações entre os objetos.
+
+
+<div align="center">
+    <h4>Diagrama de classes</h4>
+    <img src="/diagram-menu.jpg" width="580" style="border-radius: 10px;">
+</div>
+O diagrama de classes do projeto, foi realizado no software  [`StarUML`](https://staruml.io/).
+
+
+## Detalhes técnicos
+######  Arquitetura do projeto
+Para a organização de código do projeto, foi utilizada a arquitetura padrão MVC. Uma arquitetura muito conhecida `MVC (Model-View-Controller)` para aplicações web.
+
+######  Tecnologias (serviços externos, libs, frameworks, hospedagem etc.)
+
+- <a href="#" target="_blank">Linguagem utilizada Php `8.2`</a>
 - <a href="#" target="_blank">Composer `2.5.1`</a>
+- <a href="#" target="_blank">Hospedagem Compartilhada</a>
+- <a href="#" target="_blank">Git `2.37.1`</a>
 - <a href="#" target="_blank">fakerphp/faker `v1.21.0`</a>
 - <a href="#" target="_blank">league/plates `3.*`</a>
 - <a href="#" target="_blank">league/csv `9.3.*`</a>
@@ -107,6 +136,7 @@ usuários, produtos, blog, todo FAQ e inscrições via e-mail.
 - <a href="#" target="_blank">coffeecode/uploader `2.0.4`</a>
 - <a href="#" target="_blank">HTML</a>
 - <a href="#" target="_blank">CSS</a>
+- <a href="#" target="_blank">GitHub</a>
 - <a href="#" target="_blank">Google Fonts</a>
 - <a href="#" target="_blank">ScrollReveal `v4.0.9`</a>
 - <a href="#" target="_blank">highcharts `v6.2.0`</a>
@@ -116,27 +146,6 @@ usuários, produtos, blog, todo FAQ e inscrições via e-mail.
 - <a href="#" target="_blank">jquery-ui `v1.12.1`</a>
 - <a href="#" target="_blank">tinymce `3.1.1`</a>
 - <a href="#" target="_blank">Remixicon `2.5.0`</a> 
-
-
-#### Definir arquitetura do projeto
-organizado o código do projeto, ou seja, o padrão arquitetural que usaremos. É muito comum hoje em dia o uso de um 
-padrão conhecido como MVC (Model-View-Controller) para aplicações web
-
-
-
-
-## Diagrama de classes
-
-O diagrama de classes do projeto, foi realizado no software  [`StarUML`](https://staruml.io/).
-
-<div align="center">
-    <h4>Diagrama de classes - UML</h4>
-    <img src="/diagram-menu.jpg" width="580" style="border-radius: 10px;">
-</div>
-
-> O diagrama de classes é a representação estática utilizada para descrever a estrutura do sistema, apresentando as classes, atributos, operações e as relações entre os objetos.
-
-
 
 ## Contatos
 
