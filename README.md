@@ -90,9 +90,32 @@ usuários, produtos, blog, todo FAQ e inscrições via e-mail.
 
 #### Definir tecnologias (serviços externos, libs, frameworks, hospedagem etc.)
 
+- <a href="#" target="_blank">Php `8.2`</a>
+- <a href="#" target="_blank">Composer `2.5.1`</a>
+- <a href="#" target="_blank">fakerphp/faker `v1.21.0`</a>
+- <a href="#" target="_blank">league/plates `3.*`</a>
+- <a href="#" target="_blank">league/csv `9.3.*`</a>
+- <a href="#" target="_blank">dompdf/dompdf `2.0.*`</a>
+- <a href="#" target="_blank">matthiasmullie/minify `1.3.70`</a>
+- <a href="#" target="_blank">phpmailer/phpmailer `6.5.0`</a>
+- <a href="#" target="_blank">symfony/var-dumper `5.4.x-dev`</a>
+- <a href="#" target="_blank">coffeecode/datalayer `2.0.7`</a>
+- <a href="#" target="_blank">coffeecode/router `1.0.*`</a>
+- <a href="#" target="_blank">coffeecode/paginator `1.0.*`</a>
+- <a href="#" target="_blank">coffeecode/cropper `2.0.4`</a>
+- <a href="#" target="_blank">coffeecode/optimizer `2.1.1`</a>
+- <a href="#" target="_blank">coffeecode/uploader `2.0.4`</a>
+- <a href="#" target="_blank">HTML</a>
+- <a href="#" target="_blank">CSS</a>
 - <a href="#" target="_blank">Google Fonts</a>
-- <a href="#" target="_blank">ScrollReveal</a>
-- <a href="#" target="_blank">Remixicon</a> 
+- <a href="#" target="_blank">ScrollReveal `v4.0.9`</a>
+- <a href="#" target="_blank">highcharts `v6.2.0`</a>
+- <a href="#" target="_blank">jquery.form `3.51.0`</a>
+- <a href="#" target="_blank">jquery.mask `v1.14.15`</a>
+- <a href="#" target="_blank">jquery `v3.3.1`</a>
+- <a href="#" target="_blank">jquery-ui `v1.12.1`</a>
+- <a href="#" target="_blank">tinymce `3.1.1`</a>
+- <a href="#" target="_blank">Remixicon `2.5.0`</a> 
 
 
 #### Definir arquitetura do projeto
