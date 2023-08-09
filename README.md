@@ -95,7 +95,7 @@ E neste projeto foi realizado uma pesquisa para se colocar o melhor layout, e pe
 
 <p align="center">
 	<a href="#"  target="_blank" title="Visit Menu Digital home page">
-		<img src="./themes/cardapioweb/assets/images/site/home-dispositivos.png" alt="Menu Digital" style="width: 100%;">
+		<img src="./themes/cardapioweb/assets/images/site/home-dispositivos.png" alt="Menu Digital" width="500">
 	</a>
 </p>
 
@@ -150,7 +150,7 @@ Para a organização de código do projeto, foi utilizada a arquitetura padrão 
 ## Contatos
 
 
-**🔎 Acesse o site agora [CARDÁPIO DIGITAL](https://www.cardapio-digital.online)**
+**🔎 Acesse o site agora [`Menu digital`](https://menu-digital.online/)**
 - Contatos 👇🏼 [rafaelblum_digital@hotmail.com]
 - Contatos 👇🏼 [menu-digital@menu-digital.online]
 
