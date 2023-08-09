@@ -1,6 +1,6 @@
 <p align="center">
 	<a href="#"  target="_blank" title="Visit Menu Digital home page">
-		<img src="./themes/cardapioweb/assets/images/site/menu_banner.jpg" alt="Menu Digital" width="500" style="border-radius: 5px; filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.2));">
+		<img src="./themes/cardapioweb/assets/images/site/menu_banner.jpg" alt="Menu Digital" style="width: 100%; border-radius: 5px; filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.2));">
 	</a>
 </p>
 
