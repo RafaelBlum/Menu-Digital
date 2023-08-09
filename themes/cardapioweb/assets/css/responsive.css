@@ -113,7 +113,6 @@
 
     .home__leaf-1{
         top: 11rem;
-        border: red solid 1px;
         width: 220px;
         transform: rotate(100deg);
     }
