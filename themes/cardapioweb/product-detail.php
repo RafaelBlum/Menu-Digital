@@ -44,7 +44,7 @@
 
                 <div class="blog__container container grid">
                     <?php foreach ($related as $prd): ?>
-                        <?php $this->insert("product-card", ["prod" => $prd]); ?>
+                        <?php $this->insert("product-card", ["prod" => $prd, "isPrice" => $isPrice]); ?>
                     <?php endforeach; ?>
                 </div>
             </section>

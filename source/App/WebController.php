@@ -80,7 +80,8 @@ class WebController extends Controller
             "setting" => (new Setting())->find()->fetch(),
             "products" => (new Product())->findProducts()->limit(6)->order("id DESC")->fetch(true),
             "recently" => (new Product())->findProducts()->order("id DESC")->fetch(),
-            "posts" => (new Post())->findPost()->limit(3)->order("post_at DESC")->fetch(true)
+            "posts" => (new Post())->findPost()->limit(3)->order("post_at DESC")->fetch(true),
+            "isPrice" => (new Setting())->find("id = :id","id=1", "view_price")->fetch()
         ]);
     }
 
@@ -341,7 +342,8 @@ class WebController extends Controller
         echo $this->view->render("product-list", [
             "head" => $head,
             "products" => $products->limit($page->limit())->offset($page->offset())->order("id DESC")->fetch(true),
-            "paginator"=> $page->render()
+            "paginator"=> $page->render(),
+            "isPrice" => (new Setting())->find("id = :id","id=1", "view_price")->fetch()
         ]);
     }
 
@@ -463,7 +465,8 @@ class WebController extends Controller
             "related"=> (new Product())->findProducts("category = :cat AND id != :i", "cat={$prod->category}&i={$prod->id}")
                 ->order("rand()")
                 ->limit(3)
-                ->fetch(true)
+                ->fetch(true),
+            "isPrice" => (new Setting())->find("id = :id","id=1", "view_price")->fetch()
         ]);
     }
 }

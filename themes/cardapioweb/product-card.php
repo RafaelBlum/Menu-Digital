@@ -18,10 +18,11 @@
                     </a>
                 </h2>
             </div>
-
-            <ul class="product__details">
+            <?php if($isPrice->view_price == 'active'): ?>
+            <div class="product__details">
                 R$  <h3><?= str_price($prod->price); ?></h3>
-            </ul>
+            </div>
+            <?php endif; ?>
         </header>
         <p class="product__description">
             <?= str_limit_chars($prod->subtitle, 80); ?>

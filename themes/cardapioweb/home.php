@@ -80,7 +80,7 @@
 
     <div class="products__container container grid">
         <?php foreach ($products as $prod): ?>
-            <?php $this->insert("product-card", ["prod" => $prod]); ?>
+            <?php $this->insert("product-card", ["prod" => $prod, "isPrice" => $isPrice]); ?>
         <?php endforeach; ?>
         <a href="<?= url("/produtos"); ?>" title="sobre" class="button__more">Veja mais... <i class="ri-arrow-right-line"></i></a>
     </div>
