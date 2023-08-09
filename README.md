@@ -1,6 +1,6 @@
 <p align="center">
 	<a href="#"  target="_blank" title="Visit Menu Digital home page">
-		<img src="./themes/cardapioweb/assets/images/site/home-dispositivos.png" alt="Menu Digital" width="100">
+		<img src="./themes/cardapioweb/assets/images/site/home-dispositivos.png" alt="Menu Digital" width="500">
 	</a>
 </p>
 
