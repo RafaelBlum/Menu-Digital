@@ -55,7 +55,7 @@
                 </div>
 
                 <div class="home__img">
-                    <img src="<?= theme("development/assets/image/webdeveloper.png") ?>" alt="<?= $set->project_name; ?>">
+                    <img src="<?= theme("development/assets/image/web_tablet.png") ?>" alt="<?= $set->project_name; ?>">
                     <div class="home__shadow"></div>
                 </div>
 
