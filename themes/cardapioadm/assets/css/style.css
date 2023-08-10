@@ -542,10 +542,6 @@ p {
     color: inherit;
 }
 
-.dash_userbar_box h1:hover {
-    padding-left: 10px;
-}
-
 .dash_userbar_box .dash_content_box {
     padding: 0 30px;
     display: flex;
