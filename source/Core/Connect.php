@@ -8,9 +8,9 @@ class Connect
 {
     /**    ---------    DATA LOCALHOST   ----------*/
     private const HOST = "localhost";
-    private const USER = "root";
+    private const USER = "u994951933_menudig";
     private const DBNAME = "u994951933_menudig";
-    private const PASSWORD = "";
+    private const PASSWORD = "@OdIW9?+W#9";
 
     private const OPTIONS = [
         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
