@@ -20,7 +20,7 @@
             vertical-align: baseline;
         }
 
-        li {
+        .container__prod li {
             margin: 0;
             padding: 0;
             border: 0;
@@ -101,7 +101,7 @@
             text-shadow: 1px 2px #3d3d4e;
         }
 
-        a {
+        .container__prod a {
             margin: 0;
             padding: 0;
             border: 0;
@@ -110,14 +110,14 @@
             vertical-align: baseline;
         }
 
-        a:link {
+        .container__prod a:link {
             -webkit-transition: color 200ms ease;
             transition: color 200ms ease;
             color: #0d0c22;
             text-decoration: none;
         }
 
-        a:hover {
+        .container__prod a:hover {
             color: #3d3d4e;
             text-decoration: none;
         }
@@ -186,7 +186,7 @@
             left: 0;
         }
 
-        img {
+        .container__prod img {
             margin: 0;
             padding: 0;
             border: 0;
@@ -202,7 +202,7 @@
             object-fit: cover;
         }
 
-        span {
+        .container__prod span {
             margin: 0;
             padding: 0;
             border: 0;
@@ -263,7 +263,7 @@
             white-space: nowrap;
         }
 
-        ul {
+        .container__prod ul {
             margin: 0;
             padding: 0;
             border: 0;
@@ -272,7 +272,7 @@
             vertical-align: baseline;
         }
 
-        ul {
+        .container__prod ul {
             list-style: none;
         }
 
@@ -285,7 +285,7 @@
             justify-content: flex-end;
         }
 
-        a img  {
+        .container__prod a img  {
             border: none;
         }
 
@@ -310,7 +310,7 @@
             color: #0d0c22;
         }
 
-        span.badge__sm {
+        .container__prod span.badge__sm {
             padding: 2px 3px;
             border-radius: 3px;
             background: #77cc56;
@@ -321,7 +321,7 @@
             text-transform: uppercase;
         }
 
-        span.badge__rc {
+        .container__prod span.badge__rc {
             padding: 2px 3px;
             border-radius: 3px;
             background: #cc7b44;
@@ -332,7 +332,7 @@
             text-transform: uppercase;
         }
 
-        span.badge__vm {
+        .container__prod span.badge__vm {
             padding: 2px 3px;
             border-radius: 3px;
             background: #cc164c;
@@ -347,7 +347,7 @@
             padding: 2px 3px;
         }
 
-        a:hover span.badge__xl,span.badge__xl:hover {
+        .container__prod a:hover span.badge__xl,span.badge__xl:hover {
             background-color: rgba(197, 191, 197, 0.79);
         }
 
