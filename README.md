@@ -1,5 +1,5 @@
 <p align="center">
-	<a href="#"  target="_blank" title="Visit Menu Digital home page">
+	<a href="#"  target="_blank" title="Visite Menu Digital">
 		<img src="./themes/cardapioweb/assets/images/site/menu_banner.jpg" alt="Menu Digital" style="width: 100%; border-radius: 10px; filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.2));">
 	</a>
 </p>
@@ -36,9 +36,9 @@ Aqui vai o checklist das etapas de planejamento para o desenvolvimento do sistem
 
 ## Ideação
 
-A ideia deste projeto de forma simples é que na pandemia e pós pandemia, muitas pessoas como microempreendedores individuais 
-ou microempresas tiveram suas rendas zeradas ou muito diminuida, então muitos foram para o mercado informal, vendendo seus trabalhos
-e negocios no boca a boca e via apps como WhatsApp, redes sociais, etc. E é neste ponto que pensei em criar este projeto,
+A ideia deste projeto é que muitas pessoas como microempreendedores individuais ou microempresas tiveram suas rendas impactadas 
+ou até mesmo validas na pandemia e pós pandemia, então muitos foram para o mercado informal, vendendo seus trabalhos
+e negocios no boca a boca ou via apps como WhatsApp, redes sociais, etc. E é neste ponto que pensei em criar este projeto,
 para poder ajudar estas pessoas a inflar seu negocio, mostrando todos seus serviços e produtos de um jetio simples e moderno.
 
 [`Menu Digital`](https://menu-digital.online/) é um `site moderno, responsivo e gerenciável`, com objetivo de ser um `menu demonstrativo` 
@@ -108,8 +108,8 @@ E neste projeto foi realizado uma pesquisa para se colocar o melhor layout, e pe
     <h4>Diagrama de classes</h4>
     <img src="/diagram-menu.jpg" width="580" style="border-radius: 10px;">
 </div>
-O diagrama de classes do projeto, foi realizado no software  [`StarUML`](https://staruml.io/).
 
+O diagrama de classes do projeto, foi realizado no software  [`StarUML`](https://staruml.io/)
 
 ## Detalhes técnicos
 ######  Arquitetura do projeto
