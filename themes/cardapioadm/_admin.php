@@ -91,7 +91,7 @@
                 <div class="dash_content_box">
                     <h1>
                         <img src="<?= image("images/favicon.png", 25) ?>" alt="about">
-                        <a href="<?= url("/admin/dash"); ?>">Cardapio<b>Admin</b></a>
+                        <a href="<?= url("/admin/dash"); ?>"><?= str_replace(" ", "", $set->project_name); ?><b>Admin</b></a>
                     </h1>
                     <div class="dash_userbar_box_bar">
                         <span class="no_mobile icon-clock-o"><?= date("d/m H\hi"); ?></span>
