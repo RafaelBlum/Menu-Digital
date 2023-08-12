@@ -126,7 +126,6 @@
                 </a>
 
                 <p class="footer__description">
-    <!--                --><?//= CONF_SITE_DESC; ?>
                     Food for the body is not <br>
                     enough. there must be food <br>
                     for the soul.
@@ -147,11 +146,11 @@
                         </li>
 
                         <li>
-                            <a href="<?= url("blog") ?>" class="footer__link">Blog</a>
+                            <a href="<?= url("blog") ?>" class="footer__link">Recentemente</a>
                         </li>
 
                         <li>
-                            <a href="#" class="footer__link">Promoções</a>
+                            <a href="#" class="footer__link">Blog</a>
                         </li>
                     </ul>
                 </div>
@@ -173,7 +172,7 @@
                         </li>
 
                         <li>
-                            <a href="<?= url("/inscricao") ?>" class="footer__link">Receba as promoções</a>
+                            <a href="<?= url("/inscricao") ?>" class="footer__link sub">Inscreva-se!</a>
                         </li>
                     </ul>
                 </div>
@@ -198,40 +197,47 @@
                         </li>
                     </ul>
                 </div>
-
-                <div>
-                    <h3 class="footer__title">Midias sociais</h3>
-
-                    <ul class="footer__social">
-                        <a href="https://www.facebook.com/<?= CONF_SOCIAL_FACEBOOK_PAGE; ?>" target="_blank" class="footer__social_link">
-                            <i class="ri-facebook-circle-fill"></i>
-                        </a>
-
-                        <a href="<?= CONF_URL_INSTAGRAM; ?>" target="_blank" class="footer__social_link">
-                            <i class="ri-instagram-fill"></i>
-                        </a>
-
-                        <a href="<?= CONF_URL_TWITTER; ?>" target="_blank" class="footer__social_link">
-                            <i class="ri-twitter-fill"></i>
-                        </a>
-
-                        <a href="<?= CONF_URL_YOUTUBE; ?>" target="_blank" class="footer__social_link">
-                            <i class="ri-youtube-fill"></i>
-                        </a>
-
-                        <a href="<?= CONF_URL_GITHUB; ?>" target="_blank" class="footer__social_link">
-                            <i class="ri-github-fill"></i>
-                        </a>
-                    </ul>
-                    <div class="footer__qr__code">
-                        <?= qr_code(110); ?>
-                    </div>
-                </div>
             </div>
 
             <img src="<?= theme("assets/images/illustrations/leaf-cyan-2.png") ?>" alt="" class="footer__onion">
             <img src="<?= theme("assets/images/illustrations/leaf-pink.png") ?>" alt="" class="footer__spinach">
             <img src="<?= theme("assets/images/illustrations/leaf-bg.png") ?>" alt="" class="footer__leaf">
+        </div>
+
+        <div class="footer__midia container">
+            <div>
+                <h3 class="footer__title">Midias sociais</h3>
+
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/<?= CONF_SOCIAL_FACEBOOK_PAGE; ?>" target="_blank" class="footer__social_link">
+                        <i class="ri-facebook-circle-fill"></i>
+                    </a>
+
+                    <a href="<?= CONF_URL_INSTAGRAM; ?>" target="_blank" class="footer__social_link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+
+                    <a href="<?= CONF_URL_TWITTER; ?>" target="_blank" class="footer__social_link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+
+                    <a href="<?= CONF_URL_YOUTUBE; ?>" target="_blank" class="footer__social_link">
+                        <i class="ri-youtube-fill"></i>
+                    </a>
+
+                    <a href="<?= CONF_URL_GITHUB; ?>" target="_blank" class="footer__social_link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+
+                    <a href="<?= CONF_URL_LINKEDIN; ?>" target="_blank" class="footer__social_link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                </ul>
+
+                <div class="footer__qr__code">
+                    <?= qr_code(100); ?>
+                </div>
+            </div>
         </div>
 
         <div class="footer__info container">

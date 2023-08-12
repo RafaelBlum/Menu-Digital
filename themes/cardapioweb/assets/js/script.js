@@ -128,10 +128,10 @@ const sr = ScrollReveal({
 
 
 sr.reveal('.home__img, .newsletter__container, .footer__logo, .footer__description, .footer__content, .footer__info, .auth_form');
-sr.reveal('.home__data' , {origin: 'bottom'});
+sr.reveal('.home__data, .subscrib__web .section__subtitle, .subscrib__web .px-lap, .footer__midia' , {origin: 'bottom'});
 sr.reveal('.about__data, .recently__data, .home__leaf-1' , {origin: 'left'});
 sr.reveal('.about__img, .recently__img, .home__leaf-2, .recently__data-img' , {origin: 'right'});
-sr.reveal('.product__card, .post__card, .section__form' , {interval: 100});
+sr.reveal('.product__card, .post__card, .section__form, .subscrib__web .section__title' , {interval: 100});
 
 
 $(".mask-phone").mask('(00) 0000-00000', {reverse: false});

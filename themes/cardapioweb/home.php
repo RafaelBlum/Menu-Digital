@@ -72,7 +72,6 @@
     <img src="<?= theme("assets/images/illustrations/leaf-cyan-2.png") ?>" alt="about leaf 2" class="about__leaf-2">
 </section>
 
-
 <!--==================== PRODUCTS ====================-->
 <section class="products section" id="products">
     <span class="section__title">Produtos</span>
@@ -120,6 +119,26 @@
         <?php endforeach; ?>
         <a href="<?= url("/blog"); ?>" title="sobre" class="button__more">Veja mais... <i class="ri-arrow-right-line"></i></a>
     </div>
+</section>
+
+
+<!--==================== SUBSCRIBS ====================-->
+<section class="subscrib__web section" id="productsx">
+    <span class="section__title">Inscreva-se</span>
+    <h2 class="section__subtitle">Fique por dentro das novidades e promoções!</h2>
+    <div class="px-lap lg:px-iz2 py-mym lg:py-xil w-rz7 mx-91a border-14w border-rjd">
+        <a href="<?= url("/inscricao") ?>" class="fle-7b9 space-x-lsk item-hsv">
+            <div>
+                <span class="font__text">
+                    Cadastre-se agora!
+                </span>
+            </div>
+            <div class="ico__line">
+                <i class="ri-arrow-right-line"></i>
+            </div>
+        </a>
+    </div>
+
 </section>
 
 <!--========= SECTION FOR SCRIPTS ========== -->
