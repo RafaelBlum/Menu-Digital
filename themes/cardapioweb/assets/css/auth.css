@@ -21,6 +21,12 @@
     text-align: center;
     margin: 20px 0 20px 0;
 }
+
+.login__header img{
+    width: 80px;
+}
+
+
 .login__header header{
     color: #252525;
     font-size: 25px;
@@ -80,7 +86,9 @@
 .forgot-link{
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    font-weight: 600;
+    color: #0d0c22;
+    margin-top: 9px;
 }
 
 section{

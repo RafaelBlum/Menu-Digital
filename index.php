@@ -59,6 +59,8 @@ $route->group(null);
 $route->get("/entrar", "AuthController:login", "auth.login");
 $route->post("/entrar", "AuthController:login");
 
+
+
 /** RECUPERAÇÃO */
 $route->get("/recuperar", "AuthController:forget");
 $route->post("/recuperar", "AuthController:forget");
@@ -70,7 +72,7 @@ $route->get("/inscricao", "AuthController:newslatter");
 $route->post("/subscrib", "AuthController:newslatter");
 
 /** CONFIRMAÇÕES */
-$route->get("/confirma", "AuthController:confirm");
+$route->get("/confirma", "AuthController:confirm");                 // ok
 $route->get("/confirma/{email}", "AuthController:confirm");
 $route->get("/sucesso/{email}", "AuthController:success");
 $route->get("/sucesso/{email}/{status}", "AuthController:success");

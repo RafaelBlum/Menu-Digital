@@ -45,11 +45,6 @@
                     <button class="submit-btn" id="submit"></button>
                     <label for="submit">Recuperar</label>
                 </div>
-
-                <div class="sign-up-link">
-                    <p>Ainda não tem conta? <a title="Cadastre-se" href="<?= url("/cadastrar"); ?>">Cadastre-se!</a></p>
-                </div>
-
             </form>
         </div>
     </section>

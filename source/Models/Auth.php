@@ -104,8 +104,8 @@ class Auth extends Model
             "description" => "Agradece sua inscrição! Em breve estaremos lhe passando informações sobre novidades, produtos e serviços.",
             "name" => $subscrib->name,
             "confirm_link" => url("/sucesso/" . base64_encode($subscrib->email) . "/" . base64_encode($subscrib->status)),
-            "logo" => "https://cardapio-digital.online//assets/theme/images/logo/logo-cardapio-digital.png",
-            "icon" => "https://cardapio-digital.online//assets/theme/images/logo/logo-cardapio-digital-vv.png",
+            "logo" => "https://menu-digital.online/themes/cardapioweb/assets/images/logo/logo-lg.png",
+            "icon" => "https://menu-digital.online/themes/cardapioweb/assets/images/logo/logo-lg.png",
             "unsubscribe" => "Caso queira não receber mais informações sobre nossos serviços, envie um e-mail para a gente, obrigado!"
         ]);
 

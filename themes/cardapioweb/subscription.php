@@ -19,10 +19,10 @@
 <section class="auth__container" id="auth__login">
     <div class="login__box container">
 
-        <span class="section__title">Receber notificações</span>
+        <span class="section__title">Informativos</span>
 
         <form class="auth_form" action="<?= url("/subscrib"); ?>" method="post" enctype="multipart/form-data">
-            <h2 class="section__subtitle">Cadastre seu e-mail e receba informações sobre as delícias.</h2>
+            <h2 class="section__subtitle">Cadastre para receber informações!</h2>
             <div class="ajax_response">
                 <?= flash(); ?>
             </div>

@@ -24,6 +24,19 @@ class Email
         $this->mail = new PHPMailer(true);
         $this->message = new Message();
 
+//        "host" => "smtp.hostinger.com",
+//        "port" => 465,
+//        "user" => CONF_SITE_MAIL,
+//        "passwd" => "!@#$%2023Az",
+//        "from_name" => CONF_SITE_NAME,
+//        "from_email" => "menu-digital@menu-digital.online",
+//        "sender" => ["name" => CONF_SITE_NAME, "address" => CONF_SITE_MAIL],
+//        "lang" => "br",
+//        "html" => true,
+//        "auth" => true,
+//        "secure" => "ssl",
+//        "charset" => "utf-8",
+//        "support" => CONF_SITE_MAIL
         /**
          * SETUP MAIL
         */
@@ -36,6 +49,7 @@ class Email
 
         /**
          * AUTH DB
+         * pt-br: Dado de autenticação de e-mail
          */
         $this->mail->Host = MAIL["host"];
         $this->mail->Port = MAIL["port"];
@@ -45,11 +59,15 @@ class Email
 
     public function bootstrap(string $subject, string $body, string $recipient, string $recipientName): Email
     {
+        /**
+         * MAIL
+         * pt-br: Quem está enviando o e-mail
+        */
         $this->data = new \stdClass();
         $this->data->subject = $subject;
         $this->data->body = $body;
-        $this->data->recipient_email = $recipient;
-        $this->data->recipient_name = $recipientName;
+        $this->data->recipient_email = $recipient; // EMAIL PASSADO
+        $this->data->recipient_name = $recipientName; // NOME PASSADO
         return $this;
     }
 
@@ -61,12 +79,12 @@ class Email
         }
 
         if(!is_email($this->data->recipient_email)){
-            $this->message->warning("Error! O destinat�rio invalido!");
+            $this->message->warning("Error! O destinatário invalido!");
             return false;
         }
 
         if(!is_email($from)){
-            $this->message->warning("Error! O remetente � invalido!");
+            $this->message->warning("Error! O remetente é invalido!");
             return false;
         }
 
@@ -74,7 +92,14 @@ class Email
             $this->mail->Subject = $this->data->subject;
             $this->mail->msgHTML($this->data->body);
 
+            /**
+             * SETANDO OS DADO PARA QUEM ENVIAR
+             */
             $this->mail->addAddress($this->data->recipient_email, $this->data->recipient_name);
+
+            /**
+             * SETANDO OS DADO DE QUEM ENVIOU
+            */
             $this->mail->setFrom($from, $fromName);
 
             if(!empty($this->data->attach)){
@@ -82,6 +107,7 @@ class Email
                     $this->mail->addAttachment($path, $name);
                 }
             }
+
 
             $this->mail->send();
             return true;

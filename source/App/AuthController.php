@@ -10,6 +10,7 @@ use Source\Models\Auth;
 use Source\Models\Newslatter;
 use Source\Models\Post;
 use Source\Models\Product;
+use Source\Models\Setting;
 use Source\Models\User;
 
 class AuthController extends Controller
@@ -134,11 +135,11 @@ class AuthController extends Controller
             }
 
 
-            if(request_limit("subscribUser", 3, 5 * 60)){
-                $json["message"] = $this->message->warning("Você exedeu o limite de tentativas para inscrição, por favor aguarde 5 minutos para tentar novamente!")->render();
-                echo json_encode($json);
-                return;
-            }
+//            if(request_limit("subscribUser", 3, 5 * 60)){
+//                $json["message"] = $this->message->warning("Você exedeu o limite de tentativas para inscrição, por favor aguarde 5 minutos para tentar novamente!")->render();
+//                echo json_encode($json);
+//                return;
+//            }
 
             if(empty($data['email']) || empty($data["name"])){
                 $json['message'] = $this->message->error("Favor inserir nome e E-mail!")->render();
@@ -174,7 +175,7 @@ class AuthController extends Controller
             "Receba notificações - " .CONF_SITE_NAME,
             CONF_SITE_DESC,
             url("/inscricao"),
-            theme('/assets/image/logo/logo-cd-md.png')
+            theme("/assets/images/logo/logo-md.png")
         );
 
         echo $this->view->render("subscription", [
@@ -187,7 +188,7 @@ class AuthController extends Controller
 
     /**
      * @param array|null $data
-     * pt-br: Esqueceu da senha
+     * pt-br: Esqueceu da senha - recuperar senha
      * view: web - auth/forget
      */
     public function forget(?array $data): void
@@ -322,19 +323,18 @@ class AuthController extends Controller
             "Confirmação - " .CONF_SITE_NAME,
             CONF_SITE_DESC,
             url("/cadastrar"),
-            theme('/assets/image/logo/logo-cd-md.png')
+            theme("/assets/images/logo/logo-md.png")
         );
 
         echo $this->view->render("auth/optin", [
             "head"=> $head,
             "data" => (object)[
-                "title" => "Falta pouco! Confirme seu cadastro",
+                "confirm" => "confirm",
+                "title" => "Cadastro confirmado!!!",
                 "desc" => "Enviamos um <b>link</b> de confirmação para seu e-mail. Acesse e siga as instruções para concluir seu cadastro com " . CONF_SITE_NAME,
-                "image" => theme("/assets/images/logo/logo-cd-md.png"),
-                "news" => (object)[
-                    "title" => "Agradecemos seu contato! :)",
-                    "desc" => "Logo estaremos lhe enviando notícias e novidades "
-                ]
+                "image" => theme("/assets/images/logo/logo-md.png"),
+                "link" => url("/home"),
+                "linkTitle" => "Voltar para home"
             ]
         ]);
     }
@@ -342,74 +342,45 @@ class AuthController extends Controller
 
     /**
      * @param array $data
-     * pt-br: mensagem de sucesso para o usuário
+     * pt-br: mensagem de sucesso para clientes
      * view: web - auth/optin
      */
     public function success(array $data): void
     {
-
-        if(!empty($data["status"])){
-            $email = base64_decode($data["email"]);
-            $subscrib = (new Newslatter())->findByEmail($email);
+        $email = base64_decode($data["email"]);
+        $subscrib = (new Newslatter())->findByEmail($email);
 
 
-            if($subscrib && $subscrib->status != "active"){
+        if($subscrib && $subscrib->status != "active"){
 
-                $subscrib->status = "active";
-                $subscrib->is_verified = true;
-                $subscrib->verify_code = md5(uniqid(rand(), true));
+            $subscrib->status = "active";
+            $subscrib->is_verified = true;
+            $subscrib->verify_code = md5(uniqid(rand(), true));
 
-                $subscrib->save();
+            $subscrib->save();
 
-            }
-
-            $head = $this->seo->render(
-                "Sucesso - " .CONF_SITE_NAME,
-                CONF_SITE_DESC,
-                url("/inscricao"),
-                theme('/assets/image/logo/logo-cd-md.png')
-            );
-
-            echo $this->view->render("auth/optin", [
-                "head"=> $head,
-                "data" => (object)[
-                    "title" => "Tudo pronto! Seja bem-vindo :)",
-                    "desc" => CONF_SITE_DESC,
-                    "image" => theme("/assets/images/logo/logo-cd-md.png"),
-                    "link" => url("/home"),
-                    "linkTitle" => "Home"
-                ]
-            ]);
         }
 
-        /**
-         * Decodifica hash email base64_decode
-         * Busca user por email
-        */
-        $email = base64_decode($data['email']);
-        $user = (new User())->findByEmail($email);
-
-        if($user && $user->status != "confirmed"){
-            $user->status = "confirmed";
-            $user->save();
-        }
+        $settins = (new Setting())->find()->fetch();
 
         $head = $this->seo->render(
-            "Sucesso - " .CONF_SITE_NAME,
-            CONF_SITE_DESC,
-            url("/cadastrar"),
-            theme('/assets/image/logo/logo-cd-md.png')
+            "Sucesso - " . $settins->project_Name,
+            $settins->description,
+            url("/home"),
+            theme('/assets/images/logo/logo-md.png')
         );
 
         echo $this->view->render("auth/optin", [
             "head"=> $head,
             "data" => (object)[
-                "title" => "Tudo pronto! Seja bem-vindo :)",
-                "desc" => CONF_SITE_DESC,
-                "image" => theme("/assets/images/logo/logo-cd-md.png"),
-                "link" => url("/entrar"),
-                "linkTitle" => "Fazer Login"
+                "confirm" => "success",
+                "title" => "Pronto! Confirmação realizada!",
+                "desc" => "Seu registro foi realizado com sucesso!! <br>" . $settins->project_name,
+                "image" => theme("/assets/images/logo/logo-md.png"),
+                "link" => url("/home"),
+                "linkTitle" => "Voltar para home"
             ]
         ]);
+
     }
 }

@@ -50,7 +50,8 @@
             <section>
                 <header class="about__movie__header">
                     <h4>Assista também:</h4>
-                    <p>Vídeo demonstrativo detalhado com informações sobre desenvolvimento, arquitetura, linguagens etc...</p>
+                    <p>Vídeo demonstrativo, detalhando informações sobre desenvolvimento da ferramenta <b>CorporatiX</b>.
+                        Sistema em Laravel v.1</p>
                 </header>
 
                 <div class="about__movie__iframe">

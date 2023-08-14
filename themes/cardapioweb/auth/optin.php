@@ -10,30 +10,31 @@
         <article>
             <div class="container">
                 <div class="optin_content">
-                    <?php if (!empty($data->news->email)): ?>
-                        <!--========= NEWSLATTER ========== -->
+                    <?php if ($data->confirm == "confirm"): ?>
+                        <!--========= NEWSLATTER CONFIRM ========== -->
                         <div class="login__header">
-                            <img alt="<?= $data->news->title; ?>" title="<?= $data->news->title; ?>" src="<?= $data->image; ?>"/>
-                            <header><?= $data->news->title; ?></header>
-                            <p><?= $data->news->desc; ?></p>
-                            <p><b><?=$data->news->email;?></b></p>
-                        </div>
+                            <img alt="<?= $data->title; ?>" title="<?= $data->title; ?>" src="<?= $data->image; ?>"/>
+                            <header><?= $data->title; ?></header>
+                            <p><?= $data->desc; ?></p>
 
+                            <div class="forgot-link">
+                                <section>
+                                    <a href="<?= $data->link; ?>" title="<?= $data->linkTitle; ?>"><?= $data->linkTitle; ?></a>
+                                </section>
+                            </div>
+                        </div>
                     <?php else:; ?>
-                        <!--========= REGISTER ========== -->
+                        <!--========= NEWSLATTER SUCCESS ========== -->
                         <div class="login__header">
                             <img alt="<?= $data->title; ?>" title="<?= $data->title; ?>" src="<?= $data->image; ?>"/>
                             <header><?= $data->title; ?></header>
                             <p><?= $data->desc; ?></p>
                         </div>
-
-                        <?php if (!empty($data->link)): ?>
-                            <div class="forgot-link">
-                                <h3>
-                                    <a href="<?= $data->link; ?>" title="<?= $data->linkTitle; ?>"><?= $data->linkTitle; ?></a>
-                                </h3>
-                            </div>
-                        <?php endif; ?>
+                        <div class="forgot-link">
+                            <h3>
+                                <a href="<?= $data->link; ?>" title="<?= $data->linkTitle; ?>"><?= $data->linkTitle; ?></a>
+                            </h3>
+                        </div>
                     <?php endif; ?>
                 </div>
             </div>

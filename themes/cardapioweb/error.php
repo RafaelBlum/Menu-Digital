@@ -70,12 +70,16 @@
                      <a href="<?= CONF_URL_GITHUB; ?>" target="_blank" class="footer__social_link">
                          <i class="ri-github-fill"></i>
                      </a>
+
+                     <a href="<?= CONF_URL_LINKEDIN; ?>" target="_blank" class="footer__social_link">
+                         <i class="ri-linkedin-box-fill"></i>
+                     </a>
                  </div>
              </div>
 
              <!--==================== Image error ==================== -->
-             <img src="<?= theme("assets/images/error/orange-error-icon.png") ?>" alt="home imagem" class="notfound__error-1">
-             <img src="<?= theme("assets/images/error/orange-error-icon.png") ?>" alt="home imagem" class="notfound__error-2">
+             <img src="<?= theme("development/assets/image/wave-euclidean.png") ?>" alt="wave image" class="home__leaf-1">
+             <img src="<?= theme("development/assets/image/wave-euclidean.png") ?>" alt="wave image" class="home__leaf-2">
         </div>
     </div>
 
